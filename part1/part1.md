@@ -28,7 +28,7 @@
      G. '3undefined' - string concatenation  
      H. NaN - "3" is converted to number, undefined is converetd to Not A Number  
  15. Comparison  
-     A. true - 2 is converted to number 
+     A. true - 2 is converted to number  
      B. false - character-by-character string comparison does the 2<1 operation first and returns false  
      C. true - '2' is converted to integer 2  
      D. false - 2 and '2' are not of the same type  
