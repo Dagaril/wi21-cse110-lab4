@@ -1,18 +1,18 @@
 # Part 1
 
- 1. prices.length will be printed
- 2. The last instance of discountedPrice will be printed
- 3. The finalPrice variable will be printed
+ 1. 3
+ 2. 150
+ 3. 150
  4. The function will return the array \[50,100,150\] because for each value in the input array *prices*, it adds the discounted amount to the return list. The discounted amount in this case is 50% of what was in the *prices* array.
  5. An error will be thrown because i is limited to the scope of the for loop and is inaccessible outside of it.
  6. An error will be thrown because discountedPrice is limited to the scope of inside the for loop and is inaccessible outside of it.
- 7. The final instance of FinalPrice will be printed.
+ 7. 150
  8. The function will return the array \[50,100,150\] because for each value in the input array *prices*, it adds the discounted amount to the return list. The discounted amount in this case is 50% of what was in the *prices* array.
  9. An error will be thrown because i is limited to the scope of the for loop and is inaccessible outside of it.
  10. An error will be thrown because discountedPrice is limited to the scope of inside the for loop and is inaccessible outside of it.
  11. 0 will be printed as it is a constant and cannot be reassigned in the code
  12. Nothing will be returned because the for loop will throw an error on line 7 because finalPrice cannot be reassigned from 0 as it is a constant.
- 13. Notations:
+ 13. Notations:  
   A. student.name  
   B. student["Grad Year"]  
   C. student.greeting()  
