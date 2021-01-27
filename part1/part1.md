@@ -19,21 +19,21 @@
   D. student["Favorite Teacher"].name
   E. student.courseLoad[0]
  14. Arithmetic
-     A. '32' - string concatenation
-     B. 1 - '3' is converted to number for mathematical operation
-     C. 3 - null becomes 0
-     D. '3null' - string concatenation
-     E. 4 - numeric conversion, true becomes 1
-     F. 0 - numeric conversion, false becomes 0 null becomes 0
-     G. '3undefined' - string concatenation
-     H. NaN - "3" is converted to number, undefined is converetd to Not A Number
- 15. Comparison
-     A. true - 2 is converted to number
-     B. false - character-by-character string comparison does the 2<1 operation first and returns false
-     C. true - '2' is converted to integer 2
-     D. false - 2 and '2' are not of the same type
-     E. false - true has numeric value 1, not 2
-     F. true - A Boolean() type conversion returns true for any value other than 0, '', null, undefined, and NaN.
+     A. '32' - string concatenation  
+     B. 1 - '3' is converted to number for mathematical operation  
+     C. 3 - null becomes 0  
+     D. '3null' - string concatenation  
+     E. 4 - numeric conversion, true becomes 1  
+     F. 0 - numeric conversion, false becomes 0 null becomes 0  
+     G. '3undefined' - string concatenation  
+     H. NaN - "3" is converted to number, undefined is converetd to Not A Number  
+ 15. Comparison  
+     A. true - 2 is converted to number 
+     B. false - character-by-character string comparison does the 2<1 operation first and returns false  
+     C. true - '2' is converted to integer 2  
+     D. false - 2 and '2' are not of the same type  
+     E. false - true has numeric value 1, not 2  
+     F. true - A Boolean() type conversion returns true for any value other than 0, '', null, undefined, and NaN.  
  16. The === operator verifies if the two operators are equal in value and in type without performing ANY type conversions.
  17. **How Are You?** is printed because an if statement inherently calls the Boolean() on the content and a  Boolean() type conversion returns true for any value other than 0, '', null, undefined, and NaN. Since 2 is none of these values, Boolean(2) returns true even though 2 != true.
  18. See attached
