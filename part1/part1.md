@@ -13,11 +13,11 @@
  11. 0 will be printed as it is a constant and cannot be reassigned in the code
  12. Nothing will be returned because the for loop will throw an error on line 7 because finalPrice cannot be reassigned from 0 as it is a constant.
  13. Notations:
-  A. student.name
-  B. student["Grad Year"]
-  C. student.greeting()
-  D. student["Favorite Teacher"].name
-  E. student.courseLoad[0]
+  A. student.name  
+  B. student["Grad Year"]  
+  C. student.greeting()  
+  D. student["Favorite Teacher"].name  
+  E. student.courseLoad[0]  
  14. Arithmetic
      A. '32' - string concatenation  
      B. 1 - '3' is converted to number for mathematical operation  
