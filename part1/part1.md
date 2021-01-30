@@ -37,6 +37,6 @@
  16. The === operator verifies if the two operators are equal in value and in type without performing ANY type conversions.
  17. **How Are You?** is printed because an if statement inherently calls the Boolean() on the content and a  Boolean() type conversion returns true for any value other than 0, '', null, undefined, and NaN. Since 2 is none of these values, Boolean(2) returns true even though 2 != true.
  18. See attached
- 19. \[6\] will be returned. Since newArr is a const type, the for loop will only really push the first item. We call callback (which is doSomething) with parameters num=1 and callback(x)={return x*2}. From within doSomething, we return callback(1+2)=callback(3)=function(3)=3\*2=6. So we push 6 to newArr and return \[6\].
+ 19. \[6,8,10\] will be returned. Though newArr is a const type, it can be modified. The for loop will will perform the following actions for all three values of 1,2,3 (only first iteration is described). We call callback (which is doSomething) with parameters num=1 and callback(x)={return x*2}. From within doSomething, we return callback(1+2)=callback(3)=function(3)=3\*2=6. So we push 6 to newArr.
  20. See attached
  21. Each on it's separate line in the following order: 1,4,3,2
